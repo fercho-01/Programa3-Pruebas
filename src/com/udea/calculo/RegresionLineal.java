@@ -3,16 +3,7 @@ package com.udea.calculo;
 import java.util.List;
 
 public class RegresionLineal {
-	private List<Float> x;
-	private List<Float> y;
-	
-	private float b0=0;
-	private float b1=0;
-	private float r=0;
-	private float r2=0;
-	private float yk=0;
-	private float xk=0;
-	
+
 	public float calcularPromedio(List<Float> valores) {
 		float suma = realizarSuma(valores);
 		return suma/valores.size();
