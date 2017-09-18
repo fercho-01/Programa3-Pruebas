@@ -146,6 +146,7 @@ public class RegresionLinealTest {
 		float Xk = 386f;
 		
 		float Yk = regresion.calcularYk(B0, B1, Xk);
+
 		assertTrue(Yk==644.42975f);
 	}
 
